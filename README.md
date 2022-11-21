@@ -7,9 +7,9 @@ I'm learning Everything.
 <details>
 <summary>⚡️ More about my coding learning</summary>
 <br />
-- Java
-- Html
-- Css
-- Flutter
-- Php
+- Java <br />
+- Html <br />
+- Css <br />
+- Flutter <br />
+- Php <br />
 </details>
