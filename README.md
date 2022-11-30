@@ -10,6 +10,6 @@ I'm learning Everything.
 - Java <br />
 - Html <br />
 - Css <br />
-- Flutter <br />
+- Dart <br />
 - Php <br />
 </details>
