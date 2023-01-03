@@ -7,9 +7,9 @@ I'm learning Everything.
 <details>
 <summary>⚡️ More about my coding learning</summary>
 <br />
-- Java <br />
+- Java 40% <br />
 - Html <br />
 - Css <br />
-- Dart <br />
+- Dart 75% <br />
 - Php <br />
 </details>
