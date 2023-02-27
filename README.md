@@ -2,14 +2,14 @@
 
 Don't Understimate Me!!!
 
-I'm learning Everything.
+I'm Learning Everything.
 
 <details>
 <summary>⚡️ More about my coding learning</summary>
 <br />
-- Java 40% <br />
+- Java <br />
 - Html <br />
 - Css <br />
-- Dart 75% <br />
+- Dart <br />
 - Php <br />
 </details>
