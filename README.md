@@ -12,4 +12,5 @@ I'm Learning Everything.
 - Css <br />
 - Dart <br />
 - Php <br />
+- Laravel <br />
 </details>
