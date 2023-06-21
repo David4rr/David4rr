@@ -11,4 +11,7 @@ I'm Learning Everything.
 - Dart <br />
 - Php <br />
 - Laravel <br />
+- Pyhton <br />
+- react Native <br />
+- Cyber Security <br />
 </details>
