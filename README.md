@@ -2,6 +2,8 @@
 
 I'm Learning Everything.
 
+<b>(is in aggressive push)</b>
+
 <details>
 <summary>⚡️ More about my coding learning</summary>
 <br />
