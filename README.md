@@ -2,7 +2,7 @@
 
 I'm Learning Everything.
 
-<b>"is in aggressive push"</b>
+<b>"Is in Aggressive Push"</b>
 
 <details>
 <summary>⚡️ More about my coding learning</summary>
