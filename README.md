@@ -14,6 +14,6 @@ I'm Learning Everything.
 - Php <br />
 - Laravel <br />
 - Pyhton <br />
-- react Native <br />
-- kotlin <br />
+- React Native <br />
+- Kotlin <br />
 </details>
