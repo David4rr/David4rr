@@ -15,5 +15,5 @@ I'm Learning Everything.
 - Laravel <br />
 - Pyhton <br />
 - react Native <br />
-- Cyber Security <br />
+- kotlin <br />
 </details>
