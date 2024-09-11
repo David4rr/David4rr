@@ -7,13 +7,5 @@ I'm Learning Everything.
 <details>
 <summary>⚡️ More about my coding learning</summary>
 <br />
-- Java <br />
-- Html <br />
-- Css <br />
-- Dart <br />
-- Php <br />
-- Laravel <br />
-- Pyhton <br />
-- React Native <br />
-- Kotlin <br />
+- FLutter <br />
 </details>
