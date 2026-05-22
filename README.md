@@ -18,12 +18,12 @@
 
 ### 👨‍💻 About Me
 
-Saya seorang pengembang perangkat lunak yang bersemangat menjembatani **web modern**, **aplikasi mobile multiplatform**, dan **kecerdasan buatan**. Fokus utama saya adalah membangun produk digital yang tidak hanya fungsional, tetapi juga intuitif dan berdampak.
+I'm a passionate software developer bridging the gap between **modern web**, **cross-platform mobile apps**, and **artificial intelligence**. My core focus is building digital products that are not just functional, but intuitive and impactful.
 
-<!-- *   🔭 **Saat ini mengerjakan:** Proyek Flutter yang terintegrasi dengan model Machine Learning.
-*   🌱 **Sedang mendalami:** Arsitektur React Native tingkat lanjut dan optimasi model TensorFlow Lite. -->
+<!-- *   🔭 **Currently working on:** A Flutter project integrated with a Machine Learning model.
+*   🌱 **Currently deepening my knowledge in:** Advanced React Native architecture and TensorFlow Lite model optimization. -->
 
-- ⚡ **Fakta menarik:** Saya percaya kopi adalah _library_ terbaik untuk produktivitas.
+- ⚡ **Fun fact:** I firmly believe coffee is the best library for productivity.
 
 ---
 
@@ -31,7 +31,7 @@ Saya seorang pengembang perangkat lunak yang bersemangat menjembatani **web mode
 
 <div align="center">
 
-**Bahasa Pemrograman**
+**Programming Languages**
 <br/>
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -39,7 +39,7 @@ Saya seorang pengembang perangkat lunak yang bersemangat menjembatani **web mode
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
 
-**Frontend & Framework**
+**Frontend & Frameworks**
 <br/>
 ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
 ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
@@ -60,20 +60,20 @@ Saya seorang pengembang perangkat lunak yang bersemangat menjembatani **web mode
 
 ---
 
-### 📈 Statistic GitHub
+### 📈 GitHub Statistics
 
 <div align="center">
   <a href="https://github.com/David4rr">
-    <img height="180em" src="https://github-readme-stats-one-rho.vercel.app/api?username=David4rr&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="David4rr's GitHub Stats (Mirror)"/>
+    <img height="180em" src="https://github-readme-stats-one-rho.vercel.app/api?username=David4rr&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="David4rr's GitHub Stats"/>
   </a>
   <a href="https://github.com/David4rr">
-    <img height="180em" src="https://github-readme-stats-one-rho.vercel.app/api/top-langs/?username=David4rr&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="David4rr's Top Languages (Mirror)"/>
+    <img height="180em" src="https://github-readme-stats-one-rho.vercel.app/api/top-langs/?username=David4rr&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="David4rr's Top Languages"/>
   </a>
 </div>
 
 ---
 
-### 🎮 Snake Contributions
+### 🎮 Contribution Snake
 
 <div align="center">
   
@@ -83,11 +83,14 @@ Saya seorang pengembang perangkat lunak yang bersemangat menjembatani **web mode
 
 ---
 
+### 🕹️ Interactive: Play Snake Game
+
 <div align="center">
-  <h3>⬇️ Klik "Start" untuk bermain! Gunakan keyboard (WASD atau Panah) ⬇️</h3>
-  <a href="https://www.google.com/logos/fnbx/snake_play/">
-    <img src="https://img.shields.io/badge/PLAY_SNAKE_GAME-Neon_Green?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Play Snake"/>
-  </a>
+  
+  [![Play Snake Game](https://img.shields.io/badge/▶️_PLAY_SNAKE_GAME-000000?style=for-the-badge&logo=github&logoColor=white)](https://playsnake.org/)
+  
+  <p><i>🔼 Click the button above to play the classic Snake game in your browser!</i></p>
+  
 </div>
 
 <br/>
