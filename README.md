@@ -63,18 +63,9 @@ Saya seorang pengembang perangkat lunak yang bersemangat menjembatani **web mode
 ### 📈 Statistic GitHub
 
 <div align="center">
-  <!-- Statistik Utama -->
-  <!-- <a href="https://github.com/David4rr">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=David4rr&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="David4rr's GitHub Stats"/>
-  </a> -->
   <a href="https://github.com/David4rr">
     <img height="180em" src="https://github-readme-stats-one-rho.vercel.app/api?username=David4rr&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="David4rr's GitHub Stats (Mirror)"/>
   </a>
-
-  <!-- Bahasa Terbanyak -->
-  <!-- <a href="https://github.com/David4rr">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=David4rr&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="David4rr's Top Languages"/>
-  </a> -->
   <a href="https://github.com/David4rr">
     <img height="180em" src="https://github-readme-stats-one-rho.vercel.app/api/top-langs/?username=David4rr&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="David4rr's Top Languages (Mirror)"/>
   </a>
