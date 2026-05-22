@@ -16,18 +16,18 @@
 
 ---
 
-### 👨‍💻 About Me
+### About Me
 
 I'm a passionate software developer bridging the gap between **modern web**, **cross-platform mobile apps**, and **artificial intelligence**. My core focus is building digital products that are not just functional, but intuitive and impactful.
 
 <!-- *   🔭 **Currently working on:** A Flutter project integrated with a Machine Learning model.
 *   🌱 **Currently deepening my knowledge in:** Advanced React Native architecture and TensorFlow Lite model optimization. -->
 
-- ⚡ **Fun fact:** I firmly believe coffee is the best library for productivity.
+- **Fun fact:** I firmly believe coffee is the best library for productivity.
 
 ---
 
-### ⚙️ Tech Stack & Tools
+### Tech Stack & Tools
 
 <div align="center">
 
@@ -60,7 +60,7 @@ I'm a passionate software developer bridging the gap between **modern web**, **c
 
 ---
 
-### 📈 GitHub Statistics
+### GitHub Statistics
 
 <div align="center">
   <a href="https://github.com/David4rr">
@@ -73,7 +73,7 @@ I'm a passionate software developer bridging the gap between **modern web**, **c
 
 ---
 
-### 🎮 Contribution Snake
+### Contribution Snake
 
 <div align="center">
   
@@ -83,13 +83,13 @@ I'm a passionate software developer bridging the gap between **modern web**, **c
 
 ---
 
-### 🕹️ Interactive: Play Snake Game
+### Interactive: Play Snake Game
 
 <div align="center">
   
   [![Play Snake Game](https://img.shields.io/badge/▶️_PLAY_SNAKE_GAME-000000?style=for-the-badge&logo=github&logoColor=white)](https://playsnake.org/)
   
-  <p><i>🔼 Click the button above to play the classic Snake game in your browser!</i></p>
+  <p><i>Click the button above to play the classic Snake game in your browser!</i></p>
   
 </div>
 
