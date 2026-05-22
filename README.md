@@ -87,7 +87,7 @@ I'm a passionate software developer bridging the gap between **modern web**, **c
 
 <div align="center">
   
-  [![Play Snake Game](https://img.shields.io/badge/▶️_PLAY_SNAKE_GAME-000000?style=for-the-badge&logo=github&logoColor=white)](https://playsnake.org/)
+  [![Play Snake Game](https://img.shields.io/badge/PLAY_SNAKE_GAME-000000?style=for-the-badge&logo=github&logoColor=white)](https://playsnake.org/)
   
   <p><i>Click the button above to play the classic Snake game in your browser!</i></p>
   
