@@ -105,6 +105,25 @@ Software engineer specializing in native Android architecture and modern web sys
 
 ---
 
+### Activity & Rating
+
+<p align="left">
+  <a href="https://github.com/David4rr">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=David4rr&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true">
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=David4rr&show_icons=true&theme=default&hide_border=true&include_all_commits=true&count_private=true">
+      <img alt="David4rr GitHub Stats and Code Rating" src="https://github-readme-stats.vercel.app/api?username=David4rr&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true" height="165">
+    </picture>
+  </a>
+  <a href="https://github.com/David4rr">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=David4rr&layout=compact&langs_count=8&theme=github_dark&hide_border=true">
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=David4rr&layout=compact&langs_count=8&theme=default&hide_border=true">
+      <img alt="David4rr Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=David4rr&layout=compact&langs_count=8&theme=github_dark&hide_border=true" height="165">
+    </picture>
+  </a>
+</p>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/David4rr/David4rr/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/David4rr/David4rr/output/github-contribution-grid-snake.svg">
