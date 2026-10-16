@@ -61,39 +61,25 @@ def fetch_user_repos(username="David4rr"):
         return []
 
 
-def generate_ascii_table(repos):
+def generate_markdown_table(repos):
     repo_map = {r["name"]: r for r in repos if isinstance(r, dict) and "name" in r}
 
-    widths = [14, 58, 24, 10]
-    top = "┌" + "┬".join("─" * (w + 2) for w in widths) + "┐"
-    mid = "├" + "┼".join("─" * (w + 2) for w in widths) + "┤"
-    bot = "└" + "┴".join("─" * (w + 2) for w in widths) + "┘"
-    headers = ["Project", "Scope & Architecture", "Primary Stack", "Status"]
+    lines = [
+        "| Project | Scope & Architecture | Primary Stack | Status |",
+        "| :--- | :--- | :--- | :--- |",
+    ]
 
-    lines = ["<pre>", top]
-    h_line = "│" + "│".join(f" {h:<{w}} " for h, w in zip(headers, widths)) + "│"
-    lines.append(h_line)
-    lines.append(mid)
-
-    links_list = []
     for key in FEATURED_ORDER:
         meta = PROJECT_METADATA.get(key)
         if not meta:
             continue
         repo_info = repo_map.get(key)
         url = repo_info["html_url"] if repo_info else f"https://github.com/David4rr/{key}"
-        proj_link = f'<a href="{url}">{meta["title"]}</a>'
-        proj_pad = widths[0] - len(meta["title"])
-        row = f'│ {proj_link}{" " * proj_pad} │ {meta["description"]:<{widths[1]}} │ {meta["stack"]:<{widths[2]}} │ {meta["status"]:<{widths[3]}} │'
+        stack_pills = " · ".join(f"`{s.strip()}`" for s in meta["stack"].split("·"))
+        row = f"| [**{meta['title']}**]({url}) | {meta['description']} | {stack_pills} | `{meta['status']}` |"
         lines.append(row)
-        links_list.append(f'[{meta["title"]}]({url})')
 
-    lines.append(bot)
-    lines.append("</pre>")
-    lines.append("")
-    lines.append("`Quick links:` " + " / ".join(links_list))
     return "\n".join(lines)
-
 
 def update_readme():
     if not README_PATH.exists():
@@ -114,12 +100,12 @@ def update_readme():
         return
 
     repos = fetch_user_repos()
-    table_md = generate_ascii_table(repos)
+    table_md = generate_markdown_table(repos)
     replacement = f"{start_tag}\n{table_md}\n{end_tag}"
 
     new_content = pattern.sub(replacement, content)
     README_PATH.write_text(new_content, encoding="utf-8")
-    print("README.md updated successfully with ASCII table.")
+    print("README.md updated successfully with Markdown table.")
 
 
 if __name__ == "__main__":

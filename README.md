@@ -1,17 +1,24 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/David4rr/David4rr/main/.github/assets/halo-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/David4rr/David4rr/main/.github/assets/halo-light.svg">
-  <img alt="Halo / Hello Dissolve ASCII" src="https://raw.githubusercontent.com/David4rr/David4rr/main/.github/assets/halo-dark.svg" height="85">
+  <img alt="Halo / Hello Dissolve ASCII" src="https://raw.githubusercontent.com/David4rr/David4rr/main/.github/assets/halo-dark.svg" width="540">
 </picture>
 
-```text
-┌──[ david@workstation ] - [ ~/bio ]
-└─$ whoami
-role     : Software Engineer (Android & Web Systems) · Creative Technologist
-focus    : Mobile Architecture (Kotlin/Flutter) / Modern Web (TypeScript/React/Astro)
-domain   : Hardware Companion Apps / Localized Fintech (QRIS) / Edge ML
-links    : david4rr.pages.dev / linkedin.com/in/david-arrozaqi-366326278
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/David4rr/David4rr/main/.github/assets/typewriter-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/David4rr/David4rr/main/.github/assets/typewriter-light.svg">
+  <img alt="Engineering domains" src="https://raw.githubusercontent.com/David4rr/David4rr/main/.github/assets/typewriter-dark.svg" width="440">
+</picture>
+
+### David Arrozaqi
+**Software Engineer (Android & Web Systems) · Creative Technologist**
+
+Building resilient mobile architectures, reactive web platforms, and localized fintech tools.
+
+- 📍 **Location**: Indonesia (UTC+7)
+- 💼 **Focus**: Mobile Engineering (`Kotlin` / `Compose` / `Flutter`) · Web Systems (`TypeScript` / `React` / `Astro`)
+- ⚡ **Domain**: BLE Companion Hardware · EMVCo Dynamic QRIS · Edge Machine Learning
+- 🌐 **Explore**: [david4rr.pages.dev](https://david4rr.pages.dev/) / [LinkedIn](https://linkedin.com/in/david-arrozaqi-366326278)
 
 ---
 
@@ -21,19 +28,13 @@ links    : david4rr.pages.dev / linkedin.com/in/david-arrozaqi-366326278
 </picture>
 
 <!-- PROJECTS:START -->
-<pre>
-┌────────────────┬────────────────────────────────────────────────────────────┬──────────────────────────┬────────────┐
-│ Project        │ Scope & Architecture                                       │ Primary Stack            │ Status     │
-├────────────────┼────────────────────────────────────────────────────────────┼──────────────────────────┼────────────┤
-│ <a href="https://github.com/David4rr/joyofit">joyofit</a>        │ Huawei watch companion for Android with local bio-sync     │ Kotlin · BLE · Android   │ Active     │
-│ <a href="https://github.com/David4rr/dynamic-qris">dynamic-qris</a>   │ Dynamic QRIS EMVCo payload generator and parser            │ TypeScript · Node.js     │ Maintained │
-│ <a href="https://github.com/David4rr/nano-island">nano-island</a>    │ Android foreground service with interactive status overlay │ Kotlin · Jetpack         │ Active     │
-│ <a href="https://github.com/David4rr/fiBOnanci">fiBOnanci</a>      │ Finance tracking client with native platform channels      │ Flutter · Dart · Kotlin  │ Stable     │
-│ <a href="https://github.com/David4rr/ksuli-bisindo">ksuli-bisindo</a>  │ Indonesian sign language BISINDO recognition ML            │ JS · Machine Learning    │ Research   │
-└────────────────┴────────────────────────────────────────────────────────────┴──────────────────────────┴────────────┘
-</pre>
-
-`Quick links:` [joyofit](https://github.com/David4rr/joyofit) / [dynamic-qris](https://github.com/David4rr/dynamic-qris) / [nano-island](https://github.com/David4rr/nano-island) / [fiBOnanci](https://github.com/David4rr/fiBOnanci) / [ksuli-bisindo](https://github.com/David4rr/ksuli-bisindo)
+| Project | Scope & Architecture | Primary Stack | Status |
+| :--- | :--- | :--- | :--- |
+| [**joyofit**](https://github.com/David4rr/joyofit) | Huawei watch companion for Android with local bio-sync | `Kotlin` · `BLE` · `Android` | `Active` |
+| [**dynamic-qris**](https://github.com/David4rr/dynamic-qris) | Dynamic QRIS EMVCo payload generator and parser | `TypeScript` · `Node.js` | `Maintained` |
+| [**nano-island**](https://github.com/David4rr/nano-island) | Android foreground service with interactive status overlay | `Kotlin` · `Jetpack` | `Active` |
+| [**fiBOnanci**](https://github.com/David4rr/fiBOnanci) | Finance tracking client with native platform channels | `Flutter` · `Dart` · `Kotlin` | `Stable` |
+| [**ksuli-bisindo**](https://github.com/David4rr/ksuli-bisindo) | Indonesian sign language BISINDO recognition ML | `JS` · `Machine Learning` | `Research` |
 <!-- PROJECTS:END -->
 
 ---
@@ -45,47 +46,18 @@ links    : david4rr.pages.dev / linkedin.com/in/david-arrozaqi-366326278
 
 <p align="left">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/svg/kotlin.dark.svg">
-    <img alt="Kotlin" src="https://ascii.rest/svg/kotlin.svg" height="60">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/svg/dart.dark.svg">
-    <img alt="Dart" src="https://ascii.rest/svg/dart.svg" height="60">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/svg/typescript.dark.svg">
-    <img alt="TypeScript" src="https://ascii.rest/svg/typescript.svg" height="60">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/svg/python.dark.svg">
-    <img alt="Python" src="https://ascii.rest/svg/python.svg" height="60">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/svg/cloudflare.dark.svg">
-    <img alt="Cloudflare" src="https://ascii.rest/svg/cloudflare.svg" height="60">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/svg/tux.dark.svg">
-    <img alt="Linux" src="https://ascii.rest/svg/tux.svg" height="60">
-  </picture>
-  <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/David4rr/David4rr/main/.github/assets/donut-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/David4rr/David4rr/main/.github/assets/donut-light.svg">
-    <img alt="3D ASCII Donut" src="https://raw.githubusercontent.com/David4rr/David4rr/main/.github/assets/donut-dark.svg" height="60">
+    <img alt="3D ASCII Donut" src="https://raw.githubusercontent.com/David4rr/David4rr/main/.github/assets/donut-dark.svg" width="150">
   </picture>
 </p>
 
-```text
-┌── [ Mobile Systems ] ────────────────────────────┬── [ Web & Cloud Systems ] ────────────────────────┐
-│ • Kotlin (Jetpack Compose, Coroutines, BLE)      │ • TypeScript, JavaScript (ESNext)                 │
-│ • Flutter (Dart) & Platform Channels             │ • React, Next.js, Astro, Tailwind CSS, Vite       │
-│ • React Native Client Applications               │ • Node.js, FastAPI, Laravel, Cloudflare Pages     │
-├── [ AI & Intelligent Systems ] ──────────────────┼── [ Tooling & Architecture ] ─────────────────────┤
-│ • PyTorch, Scikit-learn, Naive Bayes             │ • Linux, Git, GitHub Actions (CI/CD)              │
-│ • Sign Language (BISINDO) ML & Medical Detection │ • Gradle, Clean Architecture, MVVM                │
-│ • Edge & On-Device Model Inference               │ • REST APIs, BLE Protocols, EMVCo QRIS Specs      │
-└──────────────────────────────────────────────────┴───────────────────────────────────────────────────┘
-```
+| System Domain | Core Technologies & Frameworks | Architecture & Practices |
+| :--- | :--- | :--- |
+| 📱 **Mobile Systems** | `Kotlin` · `Jetpack Compose` · `Coroutines` · `Flutter` · `Dart` · `React Native` | Clean Architecture · MVVM · BLE Protocols · Native Platform Channels |
+| 🌐 **Web & Cloud** | `TypeScript` · `JavaScript` · `React` · `Next.js` · `Astro` · `Node.js` · `Cloudflare Pages` | Reactive Web · SSR / SSG · Edge Compute · Tailwind CSS · RESTful APIs |
+| 🧠 **AI & Intelligent Systems** | `Python` · `PyTorch` · `Scikit-learn` · `Computer Vision` | Sign Language (BISINDO) ML · Medical Detection · On-Device Inference |
+| 🛠️ **Tooling & Standards** | `Linux` · `Git` · `GitHub Actions (CI/CD)` · `Gradle` · `Wrangler` | Automated CI/CD Pipelines · EMVCo QRIS Specs · BLE Hardware Protocols |
 
 ---
 
