@@ -4,9 +4,7 @@
   <img alt="Halo / Hello Dissolve ASCII" src="https://raw.githubusercontent.com/David4rr/David4rr/main/.github/assets/halo-dark.svg" width="420">
 </picture>
 
-# David Arrozaqi
-
-Software engineer specializing in native Android architecture and modern web systems. Based in Indonesia.
+I'm a software engineer specializing in native Android architecture and modern web systems, based in Indonesia.
 
 [Portfolio](https://david4rr.pages.dev/) / [LinkedIn](https://linkedin.com/in/david-arrozaqi-366326278) / [GitHub](https://github.com/David4rr)
 
