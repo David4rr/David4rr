@@ -3,13 +3,42 @@
   <img alt="David4rr" src="https://ascii.rest/banner/David4rr.svg?font=slim" height="55">
 </picture>
 
-Software engineer specializing in native Android and cross-platform mobile systems. Focused on Kotlin, Flutter, and TypeScript tooling.
+```text
+role     : Software Engineer
+focus    : Native Android (Kotlin) / Cross-Platform (Flutter) / Tooling
+domain   : Hardware Companion Apps / Localized Fintech / Edge ML
+links    : david4rr.pages.dev / linkedin.com/in/david-arrozaqi-366326278
+```
 
-[Portfolio](https://david4rr.pages.dev/) / [LinkedIn](https://www.linkedin.com/in/david-arrozaqi-366326278/) / [Email](mailto:davidarrozaqibusiness@gmail.com)
+<p align="left">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/svg/kotlin.dark.svg">
+    <img alt="Kotlin" src="https://ascii.rest/svg/kotlin.svg" height="60">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/svg/dart.dark.svg">
+    <img alt="Dart" src="https://ascii.rest/svg/dart.svg" height="60">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/svg/typescript.dark.svg">
+    <img alt="TypeScript" src="https://ascii.rest/svg/typescript.svg" height="60">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/svg/python.dark.svg">
+    <img alt="Python" src="https://ascii.rest/svg/python.svg" height="60">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/svg/tux.dark.svg">
+    <img alt="Linux" src="https://ascii.rest/svg/tux.svg" height="60">
+  </picture>
+</p>
 
 ---
 
-### Selected Projects
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/banner/projects.dark.svg?font=slim">
+  <img alt="Projects" src="https://ascii.rest/banner/projects.svg?font=slim" height="38">
+</picture>
 
 <!-- PROJECTS:START -->
 | Project | Description | Stack | Status |
@@ -23,7 +52,10 @@ Software engineer specializing in native Android and cross-platform mobile syste
 
 ---
 
-### Technical Stack
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/banner/stack.dark.svg?font=slim">
+  <img alt="Stack" src="https://ascii.rest/banner/stack.svg?font=slim" height="38">
+</picture>
 
 ```text
 mobile   : Kotlin (Jetpack, Coroutines), Flutter (Dart), React Native
