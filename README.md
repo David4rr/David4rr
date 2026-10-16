@@ -1,6 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/banner/hi%2C%20i'm%20david.dark.svg?color=22d3ee,4493f8&effect=type&font=slim">
-  <img alt="Hi, I'm David" src="https://ascii.rest/banner/hi%2C%20i'm%20david.svg?color=0284c7,2563eb&effect=type&font=slim" height="55">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/David4rr/David4rr/main/.github/assets/halo-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/David4rr/David4rr/main/.github/assets/halo-light.svg">
+  <img alt="Halo / Hello Dissolve ASCII" src="https://raw.githubusercontent.com/David4rr/David4rr/main/.github/assets/halo-dark.svg" height="85">
 </picture>
 
 ```text
