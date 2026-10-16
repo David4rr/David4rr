@@ -28,6 +28,39 @@ Software engineer specializing in native Android architecture and modern web sys
 
 ### Technical Systems
 
+<p align="left">
+  <a href="https://kotlinlang.org/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/svg/kotlin.dark.svg">
+      <img alt="Kotlin" src="https://ascii.rest/svg/kotlin.svg" width="96">
+    </picture>
+  </a>
+  <a href="https://dart.dev/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/svg/dart.dark.svg">
+      <img alt="Dart" src="https://ascii.rest/svg/dart.svg" width="96">
+    </picture>
+  </a>
+  <a href="https://www.typescriptlang.org/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/svg/typescript.dark.svg">
+      <img alt="TypeScript" src="https://ascii.rest/svg/typescript.svg" width="96">
+    </picture>
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/svg/javascript.dark.svg">
+      <img alt="JavaScript" src="https://ascii.rest/svg/javascript.svg" width="96">
+    </picture>
+  </a>
+  <a href="https://www.python.org/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/svg/python.dark.svg">
+      <img alt="Python" src="https://ascii.rest/svg/python.svg" width="96">
+    </picture>
+  </a>
+</p>
+
 #### Mobile Systems
 - Core: Kotlin, Jetpack Compose, Coroutines, Flow, Flutter, Dart, React Native
 - Architecture: Clean Architecture, MVVM, BLE Protocols, Foreground Services, Platform Channels
