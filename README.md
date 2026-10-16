@@ -12,6 +12,36 @@ domain   : Hardware Companion Apps / Localized Fintech (QRIS) / Edge ML
 links    : david4rr.pages.dev / linkedin.com/in/david-arrozaqi-366326278
 ```
 
+---
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/banner/projects.dark.svg?font=slim">
+  <img alt="Projects" src="https://ascii.rest/banner/projects.svg?font=slim" height="38">
+</picture>
+
+<!-- PROJECTS:START -->
+<pre>
+┌────────────────┬────────────────────────────────────────────────────────────┬──────────────────────────┬────────────┐
+│ Project        │ Scope & Architecture                                       │ Primary Stack            │ Status     │
+├────────────────┼────────────────────────────────────────────────────────────┼──────────────────────────┼────────────┤
+│ <a href="https://github.com/David4rr/joyofit">joyofit</a>        │ Huawei watch companion for Android with local bio-sync     │ Kotlin · BLE · Android   │ Active     │
+│ <a href="https://github.com/David4rr/dynamic-qris">dynamic-qris</a>   │ Dynamic QRIS EMVCo payload generator and parser            │ TypeScript · Node.js     │ Maintained │
+│ <a href="https://github.com/David4rr/nano-island">nano-island</a>    │ Android foreground service with interactive status overlay │ Kotlin · Jetpack         │ Active     │
+│ <a href="https://github.com/David4rr/fiBOnanci">fiBOnanci</a>      │ Finance tracking client with native platform channels      │ Flutter · Dart · Kotlin  │ Stable     │
+│ <a href="https://github.com/David4rr/ksuli-bisindo">ksuli-bisindo</a>  │ Indonesian sign language BISINDO recognition ML            │ JS · Machine Learning    │ Research   │
+└────────────────┴────────────────────────────────────────────────────────────┴──────────────────────────┴────────────┘
+</pre>
+
+`Quick links:` [joyofit](https://github.com/David4rr/joyofit) / [dynamic-qris](https://github.com/David4rr/dynamic-qris) / [nano-island](https://github.com/David4rr/nano-island) / [fiBOnanci](https://github.com/David4rr/fiBOnanci) / [ksuli-bisindo](https://github.com/David4rr/ksuli-bisindo)
+<!-- PROJECTS:END -->
+
+---
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/banner/stack.dark.svg?font=slim">
+  <img alt="Stack" src="https://ascii.rest/banner/stack.svg?font=slim" height="38">
+</picture>
+
 <p align="left">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/svg/kotlin.dark.svg">
@@ -43,36 +73,6 @@ links    : david4rr.pages.dev / linkedin.com/in/david-arrozaqi-366326278
     <img alt="3D ASCII Donut" src="https://raw.githubusercontent.com/David4rr/David4rr/main/.github/assets/donut-dark.svg" height="60">
   </picture>
 </p>
-
----
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/banner/projects.dark.svg?font=slim">
-  <img alt="Projects" src="https://ascii.rest/banner/projects.svg?font=slim" height="38">
-</picture>
-
-<!-- PROJECTS:START -->
-<pre>
-┌────────────────┬────────────────────────────────────────────────────────────┬──────────────────────────┬────────────┐
-│ Project        │ Scope & Architecture                                       │ Primary Stack            │ Status     │
-├────────────────┼────────────────────────────────────────────────────────────┼──────────────────────────┼────────────┤
-│ <a href="https://github.com/David4rr/joyofit">joyofit</a>        │ Huawei watch companion for Android with local bio-sync     │ Kotlin · BLE · Android   │ Active     │
-│ <a href="https://github.com/David4rr/dynamic-qris">dynamic-qris</a>   │ Dynamic QRIS EMVCo payload generator and parser            │ TypeScript · Node.js     │ Maintained │
-│ <a href="https://github.com/David4rr/nano-island">nano-island</a>    │ Android foreground service with interactive status overlay │ Kotlin · Jetpack         │ Active     │
-│ <a href="https://github.com/David4rr/fiBOnanci">fiBOnanci</a>      │ Finance tracking client with native platform channels      │ Flutter · Dart · Kotlin  │ Stable     │
-│ <a href="https://github.com/David4rr/ksuli-bisindo">ksuli-bisindo</a>  │ Indonesian sign language BISINDO recognition ML            │ JS · Machine Learning    │ Research   │
-└────────────────┴────────────────────────────────────────────────────────────┴──────────────────────────┴────────────┘
-</pre>
-
-`Quick links:` [joyofit](https://github.com/David4rr/joyofit) / [dynamic-qris](https://github.com/David4rr/dynamic-qris) / [nano-island](https://github.com/David4rr/nano-island) / [fiBOnanci](https://github.com/David4rr/fiBOnanci) / [ksuli-bisindo](https://github.com/David4rr/ksuli-bisindo)
-<!-- PROJECTS:END -->
-
----
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/banner/stack.dark.svg?font=slim">
-  <img alt="Stack" src="https://ascii.rest/banner/stack.svg?font=slim" height="38">
-</picture>
 
 ```text
 ┌── [ Mobile Systems ] ────────────────────────────┬── [ Web & Cloud Systems ] ────────────────────────┐
