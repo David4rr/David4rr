@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/banner/David4rr.dark.svg?font=slim">
-  <img alt="David4rr" src="https://ascii.rest/banner/David4rr.svg?font=slim" height="55">
+  <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/banner/hi%2C%20i'm%20david.dark.svg?color=22d3ee,4493f8&effect=type&font=slim">
+  <img alt="Hi, I'm David" src="https://ascii.rest/banner/hi%2C%20i'm%20david.svg?color=0284c7,2563eb&effect=type&font=slim" height="55">
 </picture>
 
 ```text
@@ -36,6 +36,11 @@ links    : david4rr.pages.dev / linkedin.com/in/david-arrozaqi-366326278
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/svg/tux.dark.svg">
     <img alt="Linux" src="https://ascii.rest/svg/tux.svg" height="60">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/David4rr/David4rr/main/.github/assets/donut-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/David4rr/David4rr/main/.github/assets/donut-light.svg">
+    <img alt="3D ASCII Donut" src="https://raw.githubusercontent.com/David4rr/David4rr/main/.github/assets/donut-dark.svg" height="60">
   </picture>
 </p>
 
