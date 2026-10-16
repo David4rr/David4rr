@@ -4,9 +4,11 @@
 </picture>
 
 ```text
-role     : Software Engineer
-focus    : Native Android (Kotlin) / Cross-Platform (Flutter) / Tooling
-domain   : Hardware Companion Apps / Localized Fintech / Edge ML
+┌──[ david@workstation ] - [ ~/bio ]
+└─$ whoami
+role     : Software Engineer (Android & Web Systems) · Creative Technologist
+focus    : Mobile Architecture (Kotlin/Flutter) / Modern Web (TypeScript/React/Astro)
+domain   : Hardware Companion Apps / Localized Fintech (QRIS) / Edge ML
 links    : david4rr.pages.dev / linkedin.com/in/david-arrozaqi-366326278
 ```
 
@@ -28,6 +30,10 @@ links    : david4rr.pages.dev / linkedin.com/in/david-arrozaqi-366326278
     <img alt="Python" src="https://ascii.rest/svg/python.svg" height="60">
   </picture>
   <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/svg/cloudflare.dark.svg">
+    <img alt="Cloudflare" src="https://ascii.rest/svg/cloudflare.svg" height="60">
+  </picture>
+  <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/svg/tux.dark.svg">
     <img alt="Linux" src="https://ascii.rest/svg/tux.svg" height="60">
   </picture>
@@ -41,13 +47,19 @@ links    : david4rr.pages.dev / linkedin.com/in/david-arrozaqi-366326278
 </picture>
 
 <!-- PROJECTS:START -->
-| Project | Description | Stack | Status |
-| :--- | :--- | :--- | :--- |
-| **[joyofit](https://github.com/David4rr/joyofit)** | Huawei watch companion for Android with local biometric sync | `Kotlin` `Android SDK` `BLE` | Active |
-| **[dynamic-qris](https://github.com/David4rr/dynamic-qris)** | EMVCo-compliant dynamic QRIS payload generator and parser | `TypeScript` `Node.js` | Maintained |
-| **[nano-island](https://github.com/David4rr/nano-island)** | Android foreground service with interactive status overlay | `Kotlin` `Jetpack` | Active |
-| **[fiBOnanci](https://github.com/David4rr/fiBOnanci)** | Finance tracking client built with native platform channels | `Dart` `Flutter` `Kotlin` | Stable |
-| **[ksuli-bisindo](https://github.com/David4rr/ksuli-bisindo)** | Indonesian sign language recognition experiment | `JavaScript` `Machine Learning` | Research |
+<pre>
+┌────────────────┬────────────────────────────────────────────────────────────┬──────────────────────────┬────────────┐
+│ Project        │ Scope & Architecture                                       │ Primary Stack            │ Status     │
+├────────────────┼────────────────────────────────────────────────────────────┼──────────────────────────┼────────────┤
+│ <a href="https://github.com/David4rr/joyofit">joyofit</a>        │ Huawei watch companion for Android with local bio-sync     │ Kotlin · BLE · Android   │ Active     │
+│ <a href="https://github.com/David4rr/dynamic-qris">dynamic-qris</a>   │ Dynamic QRIS EMVCo payload generator and parser            │ TypeScript · Node.js     │ Maintained │
+│ <a href="https://github.com/David4rr/nano-island">nano-island</a>    │ Android foreground service with interactive status overlay │ Kotlin · Jetpack         │ Active     │
+│ <a href="https://github.com/David4rr/fiBOnanci">fiBOnanci</a>      │ Finance tracking client with native platform channels      │ Flutter · Dart · Kotlin  │ Stable     │
+│ <a href="https://github.com/David4rr/ksuli-bisindo">ksuli-bisindo</a>  │ Indonesian sign language BISINDO recognition ML            │ JS · Machine Learning    │ Research   │
+└────────────────┴────────────────────────────────────────────────────────────┴──────────────────────────┴────────────┘
+</pre>
+
+`Quick links:` [joyofit](https://github.com/David4rr/joyofit) / [dynamic-qris](https://github.com/David4rr/dynamic-qris) / [nano-island](https://github.com/David4rr/nano-island) / [fiBOnanci](https://github.com/David4rr/fiBOnanci) / [ksuli-bisindo](https://github.com/David4rr/ksuli-bisindo)
 <!-- PROJECTS:END -->
 
 ---
@@ -58,10 +70,15 @@ links    : david4rr.pages.dev / linkedin.com/in/david-arrozaqi-366326278
 </picture>
 
 ```text
-mobile   : Kotlin (Jetpack, Coroutines), Flutter (Dart), React Native
-frontend : TypeScript, React, Tailwind CSS, Vite
-machine  : PyTorch, Scikit-learn (edge inference, sign language ML)
-systems  : Linux, Git, Gradle, CI/CD GitHub Actions
+┌── [ Mobile Systems ] ────────────────────────────┬── [ Web & Cloud Systems ] ────────────────────────┐
+│ • Kotlin (Jetpack Compose, Coroutines, BLE)      │ • TypeScript, JavaScript (ESNext)                 │
+│ • Flutter (Dart) & Platform Channels             │ • React, Next.js, Astro, Tailwind CSS, Vite       │
+│ • React Native Client Applications               │ • Node.js, FastAPI, Laravel, Cloudflare Pages     │
+├── [ AI & Intelligent Systems ] ──────────────────┼── [ Tooling & Architecture ] ─────────────────────┤
+│ • PyTorch, Scikit-learn, Naive Bayes             │ • Linux, Git, GitHub Actions (CI/CD)              │
+│ • Sign Language (BISINDO) ML & Medical Detection │ • Gradle, Clean Architecture, MVVM                │
+│ • Edge & On-Device Model Inference               │ • REST APIs, BLE Protocols, EMVCo QRIS Specs      │
+└──────────────────────────────────────────────────┴───────────────────────────────────────────────────┘
 ```
 
 ---

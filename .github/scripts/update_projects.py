@@ -10,32 +10,32 @@ README_PATH = Path(__file__).resolve().parent.parent.parent / "README.md"
 PROJECT_METADATA = {
     "joyofit": {
         "title": "joyofit",
-        "description": "Huawei watch companion for Android with local biometric sync",
-        "stack": "`Kotlin` `Android SDK` `BLE`",
+        "description": "Huawei watch companion for Android with local bio-sync",
+        "stack": "Kotlin · BLE · Android",
         "status": "Active",
     },
     "dynamic-qris": {
         "title": "dynamic-qris",
-        "description": "EMVCo-compliant dynamic QRIS payload generator and parser",
-        "stack": "`TypeScript` `Node.js`",
+        "description": "Dynamic QRIS EMVCo payload generator and parser",
+        "stack": "TypeScript · Node.js",
         "status": "Maintained",
     },
     "nano-island": {
         "title": "nano-island",
         "description": "Android foreground service with interactive status overlay",
-        "stack": "`Kotlin` `Jetpack`",
+        "stack": "Kotlin · Jetpack",
         "status": "Active",
     },
     "fiBOnanci": {
         "title": "fiBOnanci",
-        "description": "Finance tracking client built with native platform channels",
-        "stack": "`Dart` `Flutter` `Kotlin`",
+        "stack": "Flutter · Dart · Kotlin",
         "status": "Stable",
+        "description": "Finance tracking client with native platform channels",
     },
     "ksuli-bisindo": {
         "title": "ksuli-bisindo",
-        "description": "Indonesian sign language recognition experiment",
-        "stack": "`JavaScript` `Machine Learning`",
+        "description": "Indonesian sign language BISINDO recognition ML",
+        "stack": "JS · Machine Learning",
         "status": "Research",
     },
 }
@@ -61,26 +61,38 @@ def fetch_user_repos(username="David4rr"):
         return []
 
 
-def generate_table_markdown(repos):
+def generate_ascii_table(repos):
     repo_map = {r["name"]: r for r in repos if isinstance(r, dict) and "name" in r}
 
-    rows = []
-    rows.append("| Project | Description | Stack | Status |")
-    rows.append("| :--- | :--- | :--- | :--- |")
+    widths = [14, 58, 24, 10]
+    top = "┌" + "┬".join("─" * (w + 2) for w in widths) + "┐"
+    mid = "├" + "┼".join("─" * (w + 2) for w in widths) + "┤"
+    bot = "└" + "┴".join("─" * (w + 2) for w in widths) + "┘"
+    headers = ["Project", "Scope & Architecture", "Primary Stack", "Status"]
 
-    # Render featured curated repos first
-    rendered_keys = set()
+    lines = ["<pre>", top]
+    h_line = "│" + "│".join(f" {h:<{w}} " for h, w in zip(headers, widths)) + "│"
+    lines.append(h_line)
+    lines.append(mid)
+
+    links_list = []
     for key in FEATURED_ORDER:
         meta = PROJECT_METADATA.get(key)
         if not meta:
             continue
-        rendered_keys.add(key)
         repo_info = repo_map.get(key)
         url = repo_info["html_url"] if repo_info else f"https://github.com/David4rr/{key}"
-        row = f"| **[{meta['title']}]({url})** | {meta['description']} | {meta['stack']} | {meta['status']} |"
-        rows.append(row)
+        proj_link = f'<a href="{url}">{meta["title"]}</a>'
+        proj_pad = widths[0] - len(meta["title"])
+        row = f'│ {proj_link}{" " * proj_pad} │ {meta["description"]:<{widths[1]}} │ {meta["stack"]:<{widths[2]}} │ {meta["status"]:<{widths[3]}} │'
+        lines.append(row)
+        links_list.append(f'[{meta["title"]}]({url})')
 
-    return "\n".join(rows)
+    lines.append(bot)
+    lines.append("</pre>")
+    lines.append("")
+    lines.append("`Quick links:` " + " / ".join(links_list))
+    return "\n".join(lines)
 
 
 def update_readme():
@@ -102,12 +114,12 @@ def update_readme():
         return
 
     repos = fetch_user_repos()
-    table_md = generate_table_markdown(repos)
+    table_md = generate_ascii_table(repos)
     replacement = f"{start_tag}\n{table_md}\n{end_tag}"
 
     new_content = pattern.sub(replacement, content)
     README_PATH.write_text(new_content, encoding="utf-8")
-    print("README.md updated successfully.")
+    print("README.md updated successfully with ASCII table.")
 
 
 if __name__ == "__main__":
