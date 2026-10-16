@@ -1,4 +1,7 @@
-# David Arrozaqi
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/banner/David4rr.dark.svg?font=slim">
+  <img alt="David4rr" src="https://ascii.rest/banner/David4rr.svg?font=slim" height="55">
+</picture>
 
 Software engineer specializing in native Android and cross-platform mobile systems. Focused on Kotlin, Flutter, and TypeScript tooling.
 
