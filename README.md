@@ -32,50 +32,76 @@ Software engineer specializing in native Android architecture and modern web sys
   <a href="https://kotlinlang.org/">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/svg/kotlin.dark.svg">
-      <img alt="Kotlin" src="https://ascii.rest/svg/kotlin.svg" width="96">
+      <img alt="Kotlin" src="https://ascii.rest/svg/kotlin.svg" width="92">
     </picture>
   </a>
   <a href="https://dart.dev/">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/svg/dart.dark.svg">
-      <img alt="Dart" src="https://ascii.rest/svg/dart.svg" width="96">
+      <img alt="Dart" src="https://ascii.rest/svg/dart.svg" width="92">
     </picture>
   </a>
   <a href="https://www.typescriptlang.org/">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/svg/typescript.dark.svg">
-      <img alt="TypeScript" src="https://ascii.rest/svg/typescript.svg" width="96">
+      <img alt="TypeScript" src="https://ascii.rest/svg/typescript.svg" width="92">
     </picture>
   </a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/svg/javascript.dark.svg">
-      <img alt="JavaScript" src="https://ascii.rest/svg/javascript.svg" width="96">
+      <img alt="JavaScript" src="https://ascii.rest/svg/javascript.svg" width="92">
     </picture>
   </a>
   <a href="https://www.python.org/">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/svg/python.dark.svg">
-      <img alt="Python" src="https://ascii.rest/svg/python.svg" width="96">
+      <img alt="Python" src="https://ascii.rest/svg/python.svg" width="92">
+    </picture>
+  </a>
+  <a href="https://swift.org/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/svg/swift.dark.svg">
+      <img alt="Swift" src="https://ascii.rest/svg/swift.svg" width="92">
+    </picture>
+  </a>
+  <a href="https://www.java.com/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/svg/java.dark.svg">
+      <img alt="Java" src="https://ascii.rest/svg/java.svg" width="92">
+    </picture>
+  </a>
+  <a href="https://isocpp.org/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/svg/cpp.dark.svg">
+      <img alt="C++" src="https://ascii.rest/svg/cpp.svg" width="92">
+    </picture>
+  </a>
+  <a href="https://en.wikipedia.org/wiki/C_(programming_language)">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/svg/c.dark.svg">
+      <img alt="C" src="https://ascii.rest/svg/c.svg" width="92">
+    </picture>
+  </a>
+  <a href="https://www.php.net/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/svg/php.dark.svg">
+      <img alt="PHP" src="https://ascii.rest/svg/php.svg" width="92">
+    </picture>
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/svg/html.dark.svg">
+      <img alt="HTML" src="https://ascii.rest/svg/html.svg" width="92">
+    </picture>
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://ascii.rest/svg/css.dark.svg">
+      <img alt="CSS" src="https://ascii.rest/svg/css.svg" width="92">
     </picture>
   </a>
 </p>
-
-#### Mobile Systems
-- Core: Kotlin, Jetpack Compose, Coroutines, Flow, Flutter, Dart, React Native
-- Architecture: Clean Architecture, MVVM, BLE Protocols, Foreground Services, Platform Channels
-
-#### Web & Cloud
-- Core: TypeScript, JavaScript (ESNext), React, Next.js, Astro, Node.js, Cloudflare Pages
-- Architecture: Server-side and Static Generation, Edge Compute, REST APIs, Tailwind CSS
-
-#### Intelligent Systems
-- Core: Python, PyTorch, Scikit-learn, Computer Vision
-- Scope: BISINDO Sign Recognition, Edge Model Inference, Medical Detection
-
-#### Tooling & Standards
-- Core: Linux, Git, GitHub Actions, Gradle, Wrangler
-- Standards: Automated CI/CD, EMVCo QRIS Specifications, Hardware Protocol Testing
 
 ---
 
