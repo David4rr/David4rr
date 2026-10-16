@@ -28,12 +28,21 @@ Software engineer specializing in native Android architecture and modern web sys
 
 ### Technical Systems
 
-| Domain | Technologies & Frameworks | Architecture & Protocols |
-| :--- | :--- | :--- |
-| **Mobile Systems** | Kotlin, Jetpack Compose, Coroutines, Flow, Flutter, Dart, React Native | Clean Architecture, MVVM, BLE Protocols, Foreground Services, Platform Channels |
-| **Web & Cloud** | TypeScript, JavaScript (ESNext), React, Next.js, Astro, Node.js, Cloudflare Pages | Server-side & Static Generation, Edge Compute, REST APIs, Tailwind CSS |
-| **Intelligent Systems** | Python, PyTorch, Scikit-learn, Computer Vision | BISINDO Sign Recognition, Edge Model Inference, Medical Detection |
-| **Tooling & Standards** | Linux, Git, GitHub Actions, Gradle, Wrangler | Automated CI/CD, EMVCo QRIS Specifications, Hardware Protocol Testing |
+#### Mobile Systems
+- Core: Kotlin, Jetpack Compose, Coroutines, Flow, Flutter, Dart, React Native
+- Architecture: Clean Architecture, MVVM, BLE Protocols, Foreground Services, Platform Channels
+
+#### Web & Cloud
+- Core: TypeScript, JavaScript (ESNext), React, Next.js, Astro, Node.js, Cloudflare Pages
+- Architecture: Server-side and Static Generation, Edge Compute, REST APIs, Tailwind CSS
+
+#### Intelligent Systems
+- Core: Python, PyTorch, Scikit-learn, Computer Vision
+- Scope: BISINDO Sign Recognition, Edge Model Inference, Medical Detection
+
+#### Tooling & Standards
+- Core: Linux, Git, GitHub Actions, Gradle, Wrangler
+- Standards: Automated CI/CD, EMVCo QRIS Specifications, Hardware Protocol Testing
 
 ---
 
