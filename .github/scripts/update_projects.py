@@ -65,7 +65,7 @@ def generate_markdown_table(repos):
     repo_map = {r["name"]: r for r in repos if isinstance(r, dict) and "name" in r}
 
     lines = [
-        "| Project | Scope & Architecture | Primary Stack | Status |",
+        "| Project | Scope & Architecture | Stack | Status |",
         "| :--- | :--- | :--- | :--- |",
     ]
 
@@ -75,8 +75,8 @@ def generate_markdown_table(repos):
             continue
         repo_info = repo_map.get(key)
         url = repo_info["html_url"] if repo_info else f"https://github.com/David4rr/{key}"
-        stack_pills = " · ".join(f"`{s.strip()}`" for s in meta["stack"].split("·"))
-        row = f"| [**{meta['title']}**]({url}) | {meta['description']} | {stack_pills} | `{meta['status']}` |"
+        stack = meta["stack"].replace(" · ", ", ")
+        row = f"| [**{meta['title']}**]({url}) | {meta['description']} | {stack} | {meta['status']} |"
         lines.append(row)
 
     return "\n".join(lines)
