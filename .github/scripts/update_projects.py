@@ -8,41 +8,40 @@ README_PATH = Path(__file__).resolve().parent.parent.parent / "README.md"
 
 # Curated architecture descriptions and stack for notable repositories
 PROJECT_METADATA = {
+    "niche": {
+        "title": "niche",
+        "description": "Native macOS Dynamic Island companion. Implemented synchronized live lyrics engine (LRCLIB), zero-allocation vDSP audio FFT, and multi-copy clipboard (merged upstream into `raihanadf/niche`).",
+        "stack": "Swift · macOS",
+    },
     "joyofit": {
         "title": "joyofit",
-        "description": "Huawei watch companion for Android with local bio-sync",
+        "description": "Reverse-engineered Android companion for Huawei wearables. Implemented two-way wearable smart replies (`RemoteInput`), Service `0x25` media controls, native BLE scanner, and `.hwt` watchface decoder.",
         "stack": "Kotlin · BLE · Android",
-        "status": "Active",
+    },
+    "musicfy": {
+        "title": "musicfy",
+        "description": "Custom high-loudness Android music player. Engineered Media3 ExoPlayer audio DSP pipeline with dynamic range compression and peak limiting calibrated for broadcast standards.",
+        "stack": "Kotlin · Jetpack Compose · Media3",
+    },
+    "portfolio-website": {
+        "title": "portfolio-website",
+        "description": "Editorial personal web platform with 2D/3D interactive canvas. Built with Cloudflare Pages SSR, Notion API CMS, 120fps Lenis parallax, and strict `< 300 LOC` modular architecture.",
+        "stack": "Astro · TypeScript · Cloudflare Pages",
     },
     "dynamic-qris": {
         "title": "dynamic-qris",
-        "description": "Dynamic QRIS EMVCo payload generator and parser",
+        "description": "Specification-compliant merchant dynamic QRIS EMVCo payload generator and byte-level TLV parser featuring CRC16-CCITT checksum validation.",
         "stack": "TypeScript · Node.js",
-        "status": "Maintained",
     },
     "nano-island": {
         "title": "nano-island",
-        "description": "Android foreground service with interactive status overlay",
-        "stack": "Kotlin · Jetpack",
-        "status": "Active",
-    },
-    "fiBOnanci": {
-        "title": "fiBOnanci",
-        "stack": "Flutter · Dart · Kotlin",
-        "status": "Stable",
-        "description": "Finance tracking client with native platform channels",
-    },
-    "ksuli-bisindo": {
-        "title": "ksuli-bisindo",
-        "description": "Indonesian sign language BISINDO recognition ML",
-        "stack": "JS · Machine Learning",
-        "status": "Research",
+        "description": "Android foreground service managing interactive floating UI overlays with system-event reactive updates.",
+        "stack": "Kotlin · Jetpack Lifecycle",
     },
 }
 
 # Order of preference for featured showcase
-FEATURED_ORDER = ["joyofit", "dynamic-qris", "nano-island", "fiBOnanci", "ksuli-bisindo"]
-
+FEATURED_ORDER = ["niche", "joyofit", "musicfy", "portfolio-website", "dynamic-qris"]
 
 def fetch_user_repos(username="David4rr"):
     url = f"https://api.github.com/users/{username}/repos?sort=pushed&per_page=50"
@@ -61,25 +60,22 @@ def fetch_user_repos(username="David4rr"):
         return []
 
 
-def generate_markdown_table(repos):
+def generate_markdown_list(repos):
     repo_map = {r["name"]: r for r in repos if isinstance(r, dict) and "name" in r}
 
-    lines = [
-        "| Project | Scope & Architecture | Stack | Status |",
-        "| :--- | :--- | :--- | :--- |",
-    ]
-
+    entries = []
     for key in FEATURED_ORDER:
         meta = PROJECT_METADATA.get(key)
         if not meta:
             continue
         repo_info = repo_map.get(key)
         url = repo_info["html_url"] if repo_info else f"https://github.com/David4rr/{key}"
-        stack = meta["stack"].replace(" · ", ", ")
-        row = f"| [**{meta['title']}**]({url}) | {meta['description']} | {stack} | {meta['status']} |"
-        lines.append(row)
+        stack_pills = " · ".join(f"`{s.strip()}`" for s in meta["stack"].split("·"))
+        entry = f"**[{meta['title']}]({url})** · {stack_pills}  \n{meta['description']}"
+        entries.append(entry)
 
-    return "\n".join(lines)
+    return "\n\n".join(entries)
+
 
 def update_readme():
     if not README_PATH.exists():
@@ -100,13 +96,12 @@ def update_readme():
         return
 
     repos = fetch_user_repos()
-    table_md = generate_markdown_table(repos)
-    replacement = f"{start_tag}\n{table_md}\n{end_tag}"
+    projects_md = generate_markdown_list(repos)
+    replacement = f"{start_tag}\n{projects_md}\n{end_tag}"
 
     new_content = pattern.sub(replacement, content)
     README_PATH.write_text(new_content, encoding="utf-8")
-    print("README.md updated successfully with Markdown table.")
-
+    print("README.md updated successfully with Selected Work.")
 
 if __name__ == "__main__":
     update_readme()
