@@ -10,27 +10,6 @@ I'm a software engineer specializing in native Android architecture and modern w
 
 ---
 
-### Selected Work
-
-<!-- PROJECTS:START -->
-**[niche](https://github.com/David4rr/niche)** · `Swift` · `macOS`  
-Native macOS Dynamic Island companion. Implemented synchronized live lyrics engine (LRCLIB), zero-allocation vDSP audio FFT, and multi-copy clipboard (merged upstream into `raihanadf/niche`).
-
-**[joyofit](https://github.com/David4rr/joyofit)** · `Kotlin` · `BLE` · `Android`  
-Reverse-engineered Android companion for Huawei wearables. Implemented two-way wearable smart replies (`RemoteInput`), Service `0x25` media controls, native BLE scanner, and `.hwt` watchface decoder.
-
-**[musicfy](https://github.com/David4rr/musicfy)** · `Kotlin` · `Jetpack Compose` · `Media3`  
-Custom high-loudness Android music player. Engineered Media3 ExoPlayer audio DSP pipeline with dynamic range compression and peak limiting calibrated for broadcast standards.
-
-**[portfolio-website](https://github.com/David4rr/portfolio-website)** · `Astro` · `TypeScript` · `Cloudflare Pages`  
-Editorial personal web platform with 2D/3D interactive canvas. Built with Cloudflare Pages SSR, Notion API CMS, 120fps Lenis parallax, and strict `< 300 LOC` modular architecture.
-
-**[dynamic-qris](https://github.com/David4rr/dynamic-qris)** · `TypeScript` · `Node.js`  
-Specification-compliant merchant dynamic QRIS EMVCo payload generator and byte-level TLV parser featuring CRC16-CCITT checksum validation.
-<!-- PROJECTS:END -->
-
----
-
 ### Technical Systems
 
 <p align="left">
